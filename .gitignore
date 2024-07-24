@@ -13,6 +13,10 @@ __pycache__/
 .DS_Store
 *.csv
 
+#Ignore error log 
+error_log
+*error_log
+
 # C extensions
 *.so
 
