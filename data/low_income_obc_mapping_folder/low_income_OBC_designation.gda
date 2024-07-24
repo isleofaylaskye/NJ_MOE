@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>low_income_OBC_designation</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>low_income_OBC_designation.shp</path>
+            </datasource>
+            <layername>low_income_OBC_designation</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>STATEFP</var>
+                <var>COUNTYFP</var>
+                <var>TRACTCE</var>
+                <var>BLKGRPCE</var>
+                <var>GEOID</var>
+                <var>NAMELSAD</var>
+                <var>MTFCC</var>
+                <var>FUNCSTAT</var>
+                <var>ALAND</var>
+                <var>AWATER</var>
+                <var>INTPTLAT</var>
+                <var>INTPTLON</var>
+                <var>
+                    Percent lo
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Margin of
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Lower boun
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Upper boun
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>Designatio</var>
+                <var>color</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>4_univariate_joint_counts_weights</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>4_univariate_joint_counts_weights.gal</path>
+                        <id_variable>GEOID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>6509</num_observations>
+                        <min_neighbors>1</min_neighbors>
+                        <max_neighbors>22</max_neighbors>
+                        <mean_neighbors>6.2427408204025197</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.095909368880050999</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>Designatio</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
